@@ -1,0 +1,23 @@
+div p {
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+  }
+  img{
+  width:150px;
+  border-radius: 50%;  
+  }
+  .inf{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .info{
+    display:grid;
+    gap:1rem;
+    align-items: left;
+    text-align: left;
+  }

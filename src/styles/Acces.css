@@ -1,0 +1,18 @@
+.acc{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    
+}
+div{
+    text-align: left;
+}
+h5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.acces{
+    display: grid;
+    gap:2rem;
+}

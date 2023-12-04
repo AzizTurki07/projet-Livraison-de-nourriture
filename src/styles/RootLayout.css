@@ -1,0 +1,69 @@
+.root-layout{
+    color: black;
+	background-color: white;
+	padding: 1%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width:auto;
+}
+nav {
+    display: block;
+    justify-content:flex-start;
+    padding: 1px;
+  }
+  
+  nav a {
+    
+    color: black;
+    
+    border-radius: 0px;
+    text-decoration:wavy;
+    height: 2rem;
+    width: 10rem;
+    
+  }
+
+   nav a:hover {
+    background-color: lightgray;
+  }
+ 
+  
+ nav a.active {
+    border-left: solid 3px black;
+font-weight: 600;
+padding-left: 2px;
+    
+  }
+
+  
+  main {
+    float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 300px;
+  }
+div {
+    display:block;
+}
+section{
+    width:300px;
+}
+li{  
+      list-style-type: none;
+}
+@media screen and (max-width:993px) {
+    nav{
+        display: flex;
+        padding-bottom: 4rem;
+        gap: 4rem;
+    }
+    .navl{
+        width: 22rem;
+    }
+    .root-layout{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

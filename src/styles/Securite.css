@@ -1,0 +1,40 @@
+.securite{
+    /* padding-left: 16px;
+    width: 80%;
+    right: 30%;
+    box-sizing: border-box;
+    max-width: 50%; */
+    text-align: left;
+    display:grid;
+    gap:1rem;
+}
+.sec{
+    color: rgb(0, 0, 0);
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+div {
+    display :block;
+}
+.connexion{
+    color: rgb(0, 0, 0);
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.mot{
+    font-weight: bold;
+}

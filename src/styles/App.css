@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.entete{
+  color:white;
+  background-color: black;
+  text-align:left;
+  display: flex;
+  align-items: center;
+  
+}
+.compte{
+  width: 100%;
+  display:block;
+  font-size: 35px;
+  padding: 1%;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:50px;
+
+}
+.App{
+  display: grid;
+}
+.lmj-layout-inner {
+	display: flex;
+
+
+}
